@@ -1,2 +1,2 @@
-/usr/bin/ar qc libfractaldemondelbro.a  CMakeFiles/fractaldemondelbro.dir/library.c.o
+/usr/bin/ar qc libfractaldemondelbro.a  CMakeFiles/fractaldemondelbro.dir/main.c.o
 /usr/bin/ranlib libfractaldemondelbro.a

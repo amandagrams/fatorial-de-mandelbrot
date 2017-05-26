@@ -43,10 +43,10 @@ RM = /opt/clion/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/amanda/Documentos/fractaldemondelbro
+CMAKE_SOURCE_DIR = /home/amanda/Documentos/fractaldemondelbro/fatorial-de-mandelbrot
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/amanda/Documentos/fractaldemondelbro/cmake-build-debug
+CMAKE_BINARY_DIR = /home/amanda/Documentos/fractaldemondelbro/fatorial-de-mandelbrot/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/fractaldemondelbro.dir/depend.make
@@ -57,41 +57,41 @@ include CMakeFiles/fractaldemondelbro.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/fractaldemondelbro.dir/flags.make
 
-CMakeFiles/fractaldemondelbro.dir/library.c.o: CMakeFiles/fractaldemondelbro.dir/flags.make
-CMakeFiles/fractaldemondelbro.dir/library.c.o: ../library.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/amanda/Documentos/fractaldemondelbro/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/fractaldemondelbro.dir/library.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fractaldemondelbro.dir/library.c.o   -c /home/amanda/Documentos/fractaldemondelbro/library.c
+CMakeFiles/fractaldemondelbro.dir/main.c.o: CMakeFiles/fractaldemondelbro.dir/flags.make
+CMakeFiles/fractaldemondelbro.dir/main.c.o: ../main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/amanda/Documentos/fractaldemondelbro/fatorial-de-mandelbrot/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/fractaldemondelbro.dir/main.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fractaldemondelbro.dir/main.c.o   -c /home/amanda/Documentos/fractaldemondelbro/fatorial-de-mandelbrot/main.c
 
-CMakeFiles/fractaldemondelbro.dir/library.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fractaldemondelbro.dir/library.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/amanda/Documentos/fractaldemondelbro/library.c > CMakeFiles/fractaldemondelbro.dir/library.c.i
+CMakeFiles/fractaldemondelbro.dir/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fractaldemondelbro.dir/main.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/amanda/Documentos/fractaldemondelbro/fatorial-de-mandelbrot/main.c > CMakeFiles/fractaldemondelbro.dir/main.c.i
 
-CMakeFiles/fractaldemondelbro.dir/library.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fractaldemondelbro.dir/library.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/amanda/Documentos/fractaldemondelbro/library.c -o CMakeFiles/fractaldemondelbro.dir/library.c.s
+CMakeFiles/fractaldemondelbro.dir/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fractaldemondelbro.dir/main.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/amanda/Documentos/fractaldemondelbro/fatorial-de-mandelbrot/main.c -o CMakeFiles/fractaldemondelbro.dir/main.c.s
 
-CMakeFiles/fractaldemondelbro.dir/library.c.o.requires:
+CMakeFiles/fractaldemondelbro.dir/main.c.o.requires:
 
-.PHONY : CMakeFiles/fractaldemondelbro.dir/library.c.o.requires
+.PHONY : CMakeFiles/fractaldemondelbro.dir/main.c.o.requires
 
-CMakeFiles/fractaldemondelbro.dir/library.c.o.provides: CMakeFiles/fractaldemondelbro.dir/library.c.o.requires
-	$(MAKE) -f CMakeFiles/fractaldemondelbro.dir/build.make CMakeFiles/fractaldemondelbro.dir/library.c.o.provides.build
-.PHONY : CMakeFiles/fractaldemondelbro.dir/library.c.o.provides
+CMakeFiles/fractaldemondelbro.dir/main.c.o.provides: CMakeFiles/fractaldemondelbro.dir/main.c.o.requires
+	$(MAKE) -f CMakeFiles/fractaldemondelbro.dir/build.make CMakeFiles/fractaldemondelbro.dir/main.c.o.provides.build
+.PHONY : CMakeFiles/fractaldemondelbro.dir/main.c.o.provides
 
-CMakeFiles/fractaldemondelbro.dir/library.c.o.provides.build: CMakeFiles/fractaldemondelbro.dir/library.c.o
+CMakeFiles/fractaldemondelbro.dir/main.c.o.provides.build: CMakeFiles/fractaldemondelbro.dir/main.c.o
 
 
 # Object files for target fractaldemondelbro
 fractaldemondelbro_OBJECTS = \
-"CMakeFiles/fractaldemondelbro.dir/library.c.o"
+"CMakeFiles/fractaldemondelbro.dir/main.c.o"
 
 # External object files for target fractaldemondelbro
 fractaldemondelbro_EXTERNAL_OBJECTS =
 
-libfractaldemondelbro.a: CMakeFiles/fractaldemondelbro.dir/library.c.o
+libfractaldemondelbro.a: CMakeFiles/fractaldemondelbro.dir/main.c.o
 libfractaldemondelbro.a: CMakeFiles/fractaldemondelbro.dir/build.make
 libfractaldemondelbro.a: CMakeFiles/fractaldemondelbro.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/amanda/Documentos/fractaldemondelbro/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libfractaldemondelbro.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/amanda/Documentos/fractaldemondelbro/fatorial-de-mandelbrot/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libfractaldemondelbro.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/fractaldemondelbro.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/fractaldemondelbro.dir/link.txt --verbose=$(VERBOSE)
 
@@ -100,7 +100,7 @@ CMakeFiles/fractaldemondelbro.dir/build: libfractaldemondelbro.a
 
 .PHONY : CMakeFiles/fractaldemondelbro.dir/build
 
-CMakeFiles/fractaldemondelbro.dir/requires: CMakeFiles/fractaldemondelbro.dir/library.c.o.requires
+CMakeFiles/fractaldemondelbro.dir/requires: CMakeFiles/fractaldemondelbro.dir/main.c.o.requires
 
 .PHONY : CMakeFiles/fractaldemondelbro.dir/requires
 
@@ -109,6 +109,6 @@ CMakeFiles/fractaldemondelbro.dir/clean:
 .PHONY : CMakeFiles/fractaldemondelbro.dir/clean
 
 CMakeFiles/fractaldemondelbro.dir/depend:
-	cd /home/amanda/Documentos/fractaldemondelbro/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/amanda/Documentos/fractaldemondelbro /home/amanda/Documentos/fractaldemondelbro /home/amanda/Documentos/fractaldemondelbro/cmake-build-debug /home/amanda/Documentos/fractaldemondelbro/cmake-build-debug /home/amanda/Documentos/fractaldemondelbro/cmake-build-debug/CMakeFiles/fractaldemondelbro.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/amanda/Documentos/fractaldemondelbro/fatorial-de-mandelbrot/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/amanda/Documentos/fractaldemondelbro/fatorial-de-mandelbrot /home/amanda/Documentos/fractaldemondelbro/fatorial-de-mandelbrot /home/amanda/Documentos/fractaldemondelbro/fatorial-de-mandelbrot/cmake-build-debug /home/amanda/Documentos/fractaldemondelbro/fatorial-de-mandelbrot/cmake-build-debug /home/amanda/Documentos/fractaldemondelbro/fatorial-de-mandelbrot/cmake-build-debug/CMakeFiles/fractaldemondelbro.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/fractaldemondelbro.dir/depend
 

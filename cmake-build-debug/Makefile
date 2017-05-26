@@ -48,10 +48,10 @@ RM = /opt/clion/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/amanda/Documentos/fractaldemondelbro
+CMAKE_SOURCE_DIR = /home/amanda/Documentos/fractaldemondelbro/fatorial-de-mandelbrot
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/amanda/Documentos/fractaldemondelbro/cmake-build-debug
+CMAKE_BINARY_DIR = /home/amanda/Documentos/fractaldemondelbro/fatorial-de-mandelbrot/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/amanda/Documentos/fractaldemondelbro/cmake-build-debug/CMakeFiles /home/amanda/Documentos/fractaldemondelbro/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/amanda/Documentos/fractaldemondelbro/fatorial-de-mandelbrot/cmake-build-debug/CMakeFiles /home/amanda/Documentos/fractaldemondelbro/fatorial-de-mandelbrot/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/amanda/Documentos/fractaldemondelbro/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/amanda/Documentos/fractaldemondelbro/fatorial-de-mandelbrot/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,32 +123,32 @@ fractaldemondelbro/fast:
 	$(MAKE) -f CMakeFiles/fractaldemondelbro.dir/build.make CMakeFiles/fractaldemondelbro.dir/build
 .PHONY : fractaldemondelbro/fast
 
-library.o: library.c.o
+main.o: main.c.o
 
-.PHONY : library.o
+.PHONY : main.o
 
 # target to build an object file
-library.c.o:
-	$(MAKE) -f CMakeFiles/fractaldemondelbro.dir/build.make CMakeFiles/fractaldemondelbro.dir/library.c.o
-.PHONY : library.c.o
+main.c.o:
+	$(MAKE) -f CMakeFiles/fractaldemondelbro.dir/build.make CMakeFiles/fractaldemondelbro.dir/main.c.o
+.PHONY : main.c.o
 
-library.i: library.c.i
+main.i: main.c.i
 
-.PHONY : library.i
+.PHONY : main.i
 
 # target to preprocess a source file
-library.c.i:
-	$(MAKE) -f CMakeFiles/fractaldemondelbro.dir/build.make CMakeFiles/fractaldemondelbro.dir/library.c.i
-.PHONY : library.c.i
+main.c.i:
+	$(MAKE) -f CMakeFiles/fractaldemondelbro.dir/build.make CMakeFiles/fractaldemondelbro.dir/main.c.i
+.PHONY : main.c.i
 
-library.s: library.c.s
+main.s: main.c.s
 
-.PHONY : library.s
+.PHONY : main.s
 
 # target to generate assembly for a file
-library.c.s:
-	$(MAKE) -f CMakeFiles/fractaldemondelbro.dir/build.make CMakeFiles/fractaldemondelbro.dir/library.c.s
-.PHONY : library.c.s
+main.c.s:
+	$(MAKE) -f CMakeFiles/fractaldemondelbro.dir/build.make CMakeFiles/fractaldemondelbro.dir/main.c.s
+.PHONY : main.c.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... fractaldemondelbro"
-	@echo "... library.o"
-	@echo "... library.i"
-	@echo "... library.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 

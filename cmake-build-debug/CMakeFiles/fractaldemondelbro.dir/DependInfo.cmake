@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/amanda/Documentos/fractaldemondelbro/library.c" "/home/amanda/Documentos/fractaldemondelbro/cmake-build-debug/CMakeFiles/fractaldemondelbro.dir/library.c.o"
+  "/home/amanda/Documentos/fractaldemondelbro/fatorial-de-mandelbrot/main.c" "/home/amanda/Documentos/fractaldemondelbro/fatorial-de-mandelbrot/cmake-build-debug/CMakeFiles/fractaldemondelbro.dir/main.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

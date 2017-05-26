@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/fractaldemondelbro.dir/library.c.o"
+  "CMakeFiles/fractaldemondelbro.dir/main.c.o"
   "libfractaldemondelbro.pdb"
   "libfractaldemondelbro.a"
 )

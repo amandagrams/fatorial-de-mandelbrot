@@ -1,4 +1,4 @@
-# Install script for directory: /home/amanda/Documentos/fractaldemondelbro
+# Install script for directory: /home/amanda/Documentos/fractaldemondelbro/fatorial-de-mandelbrot
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/amanda/Documentos/fractaldemondelbro/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/amanda/Documentos/fractaldemondelbro/fatorial-de-mandelbrot/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

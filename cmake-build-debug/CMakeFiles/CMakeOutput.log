@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/amanda/Documentos/fractaldemondelbro/cmake-build-debug/CMakeFiles/3.7.1/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/amanda/Documentos/fractaldemondelbro/fatorial-de-mandelbrot/cmake-build-debug/CMakeFiles/3.7.1/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/c++ 
@@ -23,33 +23,33 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/amanda/Documentos/fractaldemondelbro/cmake-build-debug/CMakeFiles/3.7.1/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/amanda/Documentos/fractaldemondelbro/fatorial-de-mandelbrot/cmake-build-debug/CMakeFiles/3.7.1/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/amanda/Documentos/fractaldemondelbro/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/amanda/Documentos/fractaldemondelbro/fatorial-de-mandelbrot/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a7793/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a7793.dir/build.make CMakeFiles/cmTC_a7793.dir/build
-make[1]: Entering directory '/home/amanda/Documentos/fractaldemondelbro/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_a7793.dir/testCCompiler.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_a7793.dir/testCCompiler.c.o   -c /home/amanda/Documentos/fractaldemondelbro/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_a7793
-/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a7793.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_a7793.dir/testCCompiler.c.o  -o cmTC_a7793 
-make[1]: Leaving directory '/home/amanda/Documentos/fractaldemondelbro/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_dbe12/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dbe12.dir/build.make CMakeFiles/cmTC_dbe12.dir/build
+make[1]: Entering directory '/home/amanda/Documentos/fractaldemondelbro/fatorial-de-mandelbrot/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dbe12.dir/testCCompiler.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_dbe12.dir/testCCompiler.c.o   -c /home/amanda/Documentos/fractaldemondelbro/fatorial-de-mandelbrot/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_dbe12
+/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dbe12.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_dbe12.dir/testCCompiler.c.o  -o cmTC_dbe12 
+make[1]: Leaving directory '/home/amanda/Documentos/fractaldemondelbro/fatorial-de-mandelbrot/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/amanda/Documentos/fractaldemondelbro/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/amanda/Documentos/fractaldemondelbro/fatorial-de-mandelbrot/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b2d75/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b2d75.dir/build.make CMakeFiles/cmTC_b2d75.dir/build
-make[1]: Entering directory '/home/amanda/Documentos/fractaldemondelbro/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_b2d75.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_b2d75.dir/CMakeCCompilerABI.c.o   -c /opt/clion/bin/cmake/share/cmake-3.7/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_b2d75
-/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b2d75.dir/link.txt --verbose=1
-/usr/bin/cc      -v CMakeFiles/cmTC_b2d75.dir/CMakeCCompilerABI.c.o  -o cmTC_b2d75  
+Run Build Command:"/usr/bin/make" "cmTC_0ead4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0ead4.dir/build.make CMakeFiles/cmTC_0ead4.dir/build
+make[1]: Entering directory '/home/amanda/Documentos/fractaldemondelbro/fatorial-de-mandelbrot/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0ead4.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_0ead4.dir/CMakeCCompilerABI.c.o   -c /opt/clion/bin/cmake/share/cmake-3.7/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_0ead4
+/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0ead4.dir/link.txt --verbose=1
+/usr/bin/cc      -v CMakeFiles/cmTC_0ead4.dir/CMakeCCompilerABI.c.o  -o cmTC_0ead4  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper
@@ -59,24 +59,24 @@ Thread model: posix
 gcc version 6.3.0 20170406 (Ubuntu 6.3.0-12ubuntu2) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b2d75' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/6/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/6/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper -plugin-opt=-fresolution=/tmp/cct2JG4w.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_b2d75 /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/6/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/6 -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/6/../../.. CMakeFiles/cmTC_b2d75.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/6/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b2d75' '-mtune=generic' '-march=x86-64'
-make[1]: Leaving directory '/home/amanda/Documentos/fractaldemondelbro/cmake-build-debug/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0ead4' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/6/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/6/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper -plugin-opt=-fresolution=/tmp/ccZQ92Wg.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_0ead4 /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/6/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/6 -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/6/../../.. CMakeFiles/cmTC_0ead4.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/6/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0ead4' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/amanda/Documentos/fractaldemondelbro/fatorial-de-mandelbrot/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/amanda/Documentos/fractaldemondelbro/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/amanda/Documentos/fractaldemondelbro/fatorial-de-mandelbrot/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_b2d75/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_b2d75.dir/build.make CMakeFiles/cmTC_b2d75.dir/build]
-  ignore line: [make[1]: Entering directory '/home/amanda/Documentos/fractaldemondelbro/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_b2d75.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_b2d75.dir/CMakeCCompilerABI.c.o   -c /opt/clion/bin/cmake/share/cmake-3.7/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_b2d75]
-  ignore line: [/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b2d75.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_b2d75.dir/CMakeCCompilerABI.c.o  -o cmTC_b2d75  ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_0ead4/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_0ead4.dir/build.make CMakeFiles/cmTC_0ead4.dir/build]
+  ignore line: [make[1]: Entering directory '/home/amanda/Documentos/fractaldemondelbro/fatorial-de-mandelbrot/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_0ead4.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_0ead4.dir/CMakeCCompilerABI.c.o   -c /opt/clion/bin/cmake/share/cmake-3.7/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_0ead4]
+  ignore line: [/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0ead4.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_0ead4.dir/CMakeCCompilerABI.c.o  -o cmTC_0ead4  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper]
@@ -86,13 +86,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 6.3.0 20170406 (Ubuntu 6.3.0-12ubuntu2) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b2d75' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/6/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/6/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper -plugin-opt=-fresolution=/tmp/cct2JG4w.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_b2d75 /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/6/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/6 -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/6/../../.. CMakeFiles/cmTC_b2d75.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/6/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0ead4' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/6/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/6/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper -plugin-opt=-fresolution=/tmp/ccZQ92Wg.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_0ead4 /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/6/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/6 -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/6/../../.. CMakeFiles/cmTC_0ead4.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/6/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/6/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/6/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cct2JG4w.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccZQ92Wg.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -111,7 +111,7 @@ Parsed C implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_b2d75] ==> ignore
+    arg [cmTC_0ead4] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/6/crtbeginS.o] ==> ignore
@@ -123,7 +123,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/6/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/6/../../..]
-    arg [CMakeFiles/cmTC_b2d75.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_0ead4.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -155,17 +155,17 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /home/amanda/Documentos/fractaldemondelbro/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/amanda/Documentos/fractaldemondelbro/fatorial-de-mandelbrot/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_59ed0/fast"
-/usr/bin/make -f CMakeFiles/cmTC_59ed0.dir/build.make CMakeFiles/cmTC_59ed0.dir/build
-make[1]: Entering directory '/home/amanda/Documentos/fractaldemondelbro/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_59ed0.dir/feature_tests.c.o
-/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_59ed0.dir/feature_tests.c.o   -c /home/amanda/Documentos/fractaldemondelbro/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_59ed0
-/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_59ed0.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_59ed0.dir/feature_tests.c.o  -o cmTC_59ed0 
-make[1]: Leaving directory '/home/amanda/Documentos/fractaldemondelbro/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_1e994/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1e994.dir/build.make CMakeFiles/cmTC_1e994.dir/build
+make[1]: Entering directory '/home/amanda/Documentos/fractaldemondelbro/fatorial-de-mandelbrot/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1e994.dir/feature_tests.c.o
+/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_1e994.dir/feature_tests.c.o   -c /home/amanda/Documentos/fractaldemondelbro/fatorial-de-mandelbrot/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_1e994
+/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1e994.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_1e994.dir/feature_tests.c.o  -o cmTC_1e994 
+make[1]: Leaving directory '/home/amanda/Documentos/fractaldemondelbro/fatorial-de-mandelbrot/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -175,17 +175,17 @@ make[1]: Leaving directory '/home/amanda/Documentos/fractaldemondelbro/cmake-bui
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/amanda/Documentos/fractaldemondelbro/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/amanda/Documentos/fractaldemondelbro/fatorial-de-mandelbrot/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b3092/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b3092.dir/build.make CMakeFiles/cmTC_b3092.dir/build
-make[1]: Entering directory '/home/amanda/Documentos/fractaldemondelbro/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_b3092.dir/feature_tests.c.o
-/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_b3092.dir/feature_tests.c.o   -c /home/amanda/Documentos/fractaldemondelbro/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_b3092
-/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b3092.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_b3092.dir/feature_tests.c.o  -o cmTC_b3092 
-make[1]: Leaving directory '/home/amanda/Documentos/fractaldemondelbro/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_a3b29/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a3b29.dir/build.make CMakeFiles/cmTC_a3b29.dir/build
+make[1]: Entering directory '/home/amanda/Documentos/fractaldemondelbro/fatorial-de-mandelbrot/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a3b29.dir/feature_tests.c.o
+/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_a3b29.dir/feature_tests.c.o   -c /home/amanda/Documentos/fractaldemondelbro/fatorial-de-mandelbrot/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_a3b29
+/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a3b29.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_a3b29.dir/feature_tests.c.o  -o cmTC_a3b29 
+make[1]: Leaving directory '/home/amanda/Documentos/fractaldemondelbro/fatorial-de-mandelbrot/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -195,17 +195,17 @@ make[1]: Leaving directory '/home/amanda/Documentos/fractaldemondelbro/cmake-bui
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /home/amanda/Documentos/fractaldemondelbro/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/amanda/Documentos/fractaldemondelbro/fatorial-de-mandelbrot/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_0970f/fast"
-/usr/bin/make -f CMakeFiles/cmTC_0970f.dir/build.make CMakeFiles/cmTC_0970f.dir/build
-make[1]: Entering directory '/home/amanda/Documentos/fractaldemondelbro/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_0970f.dir/feature_tests.c.o
-/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_0970f.dir/feature_tests.c.o   -c /home/amanda/Documentos/fractaldemondelbro/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_0970f
-/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0970f.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_0970f.dir/feature_tests.c.o  -o cmTC_0970f 
-make[1]: Leaving directory '/home/amanda/Documentos/fractaldemondelbro/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_a9239/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a9239.dir/build.make CMakeFiles/cmTC_a9239.dir/build
+make[1]: Entering directory '/home/amanda/Documentos/fractaldemondelbro/fatorial-de-mandelbrot/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a9239.dir/feature_tests.c.o
+/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_a9239.dir/feature_tests.c.o   -c /home/amanda/Documentos/fractaldemondelbro/fatorial-de-mandelbrot/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_a9239
+/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a9239.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_a9239.dir/feature_tests.c.o  -o cmTC_a9239 
+make[1]: Leaving directory '/home/amanda/Documentos/fractaldemondelbro/fatorial-de-mandelbrot/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -213,30 +213,30 @@ make[1]: Leaving directory '/home/amanda/Documentos/fractaldemondelbro/cmake-bui
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/amanda/Documentos/fractaldemondelbro/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/amanda/Documentos/fractaldemondelbro/fatorial-de-mandelbrot/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b672b/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b672b.dir/build.make CMakeFiles/cmTC_b672b.dir/build
-make[1]: Entering directory '/home/amanda/Documentos/fractaldemondelbro/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_b672b.dir/testCXXCompiler.cxx.o
-/usr/bin/c++      -o CMakeFiles/cmTC_b672b.dir/testCXXCompiler.cxx.o -c /home/amanda/Documentos/fractaldemondelbro/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_b672b
-/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b672b.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_b672b.dir/testCXXCompiler.cxx.o  -o cmTC_b672b 
-make[1]: Leaving directory '/home/amanda/Documentos/fractaldemondelbro/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_3c242/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3c242.dir/build.make CMakeFiles/cmTC_3c242.dir/build
+make[1]: Entering directory '/home/amanda/Documentos/fractaldemondelbro/fatorial-de-mandelbrot/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3c242.dir/testCXXCompiler.cxx.o
+/usr/bin/c++      -o CMakeFiles/cmTC_3c242.dir/testCXXCompiler.cxx.o -c /home/amanda/Documentos/fractaldemondelbro/fatorial-de-mandelbrot/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_3c242
+/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3c242.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_3c242.dir/testCXXCompiler.cxx.o  -o cmTC_3c242 
+make[1]: Leaving directory '/home/amanda/Documentos/fractaldemondelbro/fatorial-de-mandelbrot/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/amanda/Documentos/fractaldemondelbro/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/amanda/Documentos/fractaldemondelbro/fatorial-de-mandelbrot/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_821d3/fast"
-/usr/bin/make -f CMakeFiles/cmTC_821d3.dir/build.make CMakeFiles/cmTC_821d3.dir/build
-make[1]: Entering directory '/home/amanda/Documentos/fractaldemondelbro/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_821d3.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++      -o CMakeFiles/cmTC_821d3.dir/CMakeCXXCompilerABI.cpp.o -c /opt/clion/bin/cmake/share/cmake-3.7/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_821d3
-/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_821d3.dir/link.txt --verbose=1
-/usr/bin/c++       -v CMakeFiles/cmTC_821d3.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_821d3  
+Run Build Command:"/usr/bin/make" "cmTC_4619c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4619c.dir/build.make CMakeFiles/cmTC_4619c.dir/build
+make[1]: Entering directory '/home/amanda/Documentos/fractaldemondelbro/fatorial-de-mandelbrot/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4619c.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++      -o CMakeFiles/cmTC_4619c.dir/CMakeCXXCompilerABI.cpp.o -c /opt/clion/bin/cmake/share/cmake-3.7/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_4619c
+/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4619c.dir/link.txt --verbose=1
+/usr/bin/c++       -v CMakeFiles/cmTC_4619c.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_4619c  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper
@@ -246,24 +246,24 @@ Thread model: posix
 gcc version 6.3.0 20170406 (Ubuntu 6.3.0-12ubuntu2) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_821d3' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/6/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/6/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper -plugin-opt=-fresolution=/tmp/ccfQ0Q1u.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_821d3 /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/6/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/6 -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/6/../../.. CMakeFiles/cmTC_821d3.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/6/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_821d3' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-make[1]: Leaving directory '/home/amanda/Documentos/fractaldemondelbro/cmake-build-debug/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4619c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/6/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/6/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper -plugin-opt=-fresolution=/tmp/cctGN6DH.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_4619c /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/6/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/6 -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/6/../../.. CMakeFiles/cmTC_4619c.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/6/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4619c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/amanda/Documentos/fractaldemondelbro/fatorial-de-mandelbrot/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/amanda/Documentos/fractaldemondelbro/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/amanda/Documentos/fractaldemondelbro/fatorial-de-mandelbrot/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_821d3/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_821d3.dir/build.make CMakeFiles/cmTC_821d3.dir/build]
-  ignore line: [make[1]: Entering directory '/home/amanda/Documentos/fractaldemondelbro/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_821d3.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_821d3.dir/CMakeCXXCompilerABI.cpp.o -c /opt/clion/bin/cmake/share/cmake-3.7/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_821d3]
-  ignore line: [/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_821d3.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_821d3.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_821d3  ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_4619c/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_4619c.dir/build.make CMakeFiles/cmTC_4619c.dir/build]
+  ignore line: [make[1]: Entering directory '/home/amanda/Documentos/fractaldemondelbro/fatorial-de-mandelbrot/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_4619c.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_4619c.dir/CMakeCXXCompilerABI.cpp.o -c /opt/clion/bin/cmake/share/cmake-3.7/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_4619c]
+  ignore line: [/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4619c.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_4619c.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_4619c  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper]
@@ -273,13 +273,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 6.3.0 20170406 (Ubuntu 6.3.0-12ubuntu2) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_821d3' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/6/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/6/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper -plugin-opt=-fresolution=/tmp/ccfQ0Q1u.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_821d3 /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/6/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/6 -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/6/../../.. CMakeFiles/cmTC_821d3.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/6/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4619c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/6/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/6/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper -plugin-opt=-fresolution=/tmp/cctGN6DH.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_4619c /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/6/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/6 -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/6/../../.. CMakeFiles/cmTC_4619c.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/6/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/6/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/6/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccfQ0Q1u.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cctGN6DH.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -298,7 +298,7 @@ Parsed CXX implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_821d3] ==> ignore
+    arg [cmTC_4619c] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/6/crtbeginS.o] ==> ignore
@@ -310,7 +310,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/6/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/6/../../..]
-    arg [CMakeFiles/cmTC_821d3.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_4619c.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -340,17 +340,17 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /home/amanda/Documentos/fractaldemondelbro/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/amanda/Documentos/fractaldemondelbro/fatorial-de-mandelbrot/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_f6919/fast"
-/usr/bin/make -f CMakeFiles/cmTC_f6919.dir/build.make CMakeFiles/cmTC_f6919.dir/build
-make[1]: Entering directory '/home/amanda/Documentos/fractaldemondelbro/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_f6919.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++14 -o CMakeFiles/cmTC_f6919.dir/feature_tests.cxx.o -c /home/amanda/Documentos/fractaldemondelbro/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_f6919
-/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f6919.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_f6919.dir/feature_tests.cxx.o  -o cmTC_f6919 
-make[1]: Leaving directory '/home/amanda/Documentos/fractaldemondelbro/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_e4030/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e4030.dir/build.make CMakeFiles/cmTC_e4030.dir/build
+make[1]: Entering directory '/home/amanda/Documentos/fractaldemondelbro/fatorial-de-mandelbrot/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e4030.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++14 -o CMakeFiles/cmTC_e4030.dir/feature_tests.cxx.o -c /home/amanda/Documentos/fractaldemondelbro/fatorial-de-mandelbrot/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_e4030
+/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e4030.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_e4030.dir/feature_tests.cxx.o  -o cmTC_e4030 
+make[1]: Leaving directory '/home/amanda/Documentos/fractaldemondelbro/fatorial-de-mandelbrot/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -413,17 +413,17 @@ make[1]: Leaving directory '/home/amanda/Documentos/fractaldemondelbro/cmake-bui
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /home/amanda/Documentos/fractaldemondelbro/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/amanda/Documentos/fractaldemondelbro/fatorial-de-mandelbrot/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_19088/fast"
-/usr/bin/make -f CMakeFiles/cmTC_19088.dir/build.make CMakeFiles/cmTC_19088.dir/build
-make[1]: Entering directory '/home/amanda/Documentos/fractaldemondelbro/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_19088.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_19088.dir/feature_tests.cxx.o -c /home/amanda/Documentos/fractaldemondelbro/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_19088
-/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_19088.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_19088.dir/feature_tests.cxx.o  -o cmTC_19088 
-make[1]: Leaving directory '/home/amanda/Documentos/fractaldemondelbro/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_da5a2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_da5a2.dir/build.make CMakeFiles/cmTC_da5a2.dir/build
+make[1]: Entering directory '/home/amanda/Documentos/fractaldemondelbro/fatorial-de-mandelbrot/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_da5a2.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_da5a2.dir/feature_tests.cxx.o -c /home/amanda/Documentos/fractaldemondelbro/fatorial-de-mandelbrot/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_da5a2
+/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_da5a2.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_da5a2.dir/feature_tests.cxx.o  -o cmTC_da5a2 
+make[1]: Leaving directory '/home/amanda/Documentos/fractaldemondelbro/fatorial-de-mandelbrot/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -486,17 +486,17 @@ make[1]: Leaving directory '/home/amanda/Documentos/fractaldemondelbro/cmake-bui
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /home/amanda/Documentos/fractaldemondelbro/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/amanda/Documentos/fractaldemondelbro/fatorial-de-mandelbrot/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_62650/fast"
-/usr/bin/make -f CMakeFiles/cmTC_62650.dir/build.make CMakeFiles/cmTC_62650.dir/build
-make[1]: Entering directory '/home/amanda/Documentos/fractaldemondelbro/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_62650.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_62650.dir/feature_tests.cxx.o -c /home/amanda/Documentos/fractaldemondelbro/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_62650
-/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_62650.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_62650.dir/feature_tests.cxx.o  -o cmTC_62650 
-make[1]: Leaving directory '/home/amanda/Documentos/fractaldemondelbro/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_51a00/fast"
+/usr/bin/make -f CMakeFiles/cmTC_51a00.dir/build.make CMakeFiles/cmTC_51a00.dir/build
+make[1]: Entering directory '/home/amanda/Documentos/fractaldemondelbro/fatorial-de-mandelbrot/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_51a00.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_51a00.dir/feature_tests.cxx.o -c /home/amanda/Documentos/fractaldemondelbro/fatorial-de-mandelbrot/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_51a00
+/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_51a00.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_51a00.dir/feature_tests.cxx.o  -o cmTC_51a00 
+make[1]: Leaving directory '/home/amanda/Documentos/fractaldemondelbro/fatorial-de-mandelbrot/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers

@@ -1,3 +1,3 @@
-/home/amanda/Documentos/fractaldemondelbro/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/amanda/Documentos/fractaldemondelbro/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/amanda/Documentos/fractaldemondelbro/cmake-build-debug/CMakeFiles/fractaldemondelbro.dir
+/home/amanda/Documentos/fractaldemondelbro/fatorial-de-mandelbrot/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/amanda/Documentos/fractaldemondelbro/fatorial-de-mandelbrot/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/amanda/Documentos/fractaldemondelbro/fatorial-de-mandelbrot/cmake-build-debug/CMakeFiles/fractaldemondelbro.dir
