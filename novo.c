@@ -7,7 +7,7 @@
 #include <assert.h>
 #include <pthread.h>
 
-#define NUMTHREADS 4
+#define NUMTHREADS 2
 #define INTERACOES 200
 
 FILE * fp;
@@ -15,6 +15,7 @@ char *filename = "new1.ppm";
 char *comment = "# ";
 static unsigned char cor[3];
 pthread_t threads[NUMTHREADS];
+pthread_mutex_t bagLock;
 
 void mandelbrot(int idThread);
 void *worker(void *arg);
