@@ -7,7 +7,7 @@
 #include <assert.h>
 #include <pthread.h>
 
-#define NUMTHREADS 2
+#define NUMTHREADS 4
 #define INTERACOES 200
 
 FILE * fp;
@@ -41,6 +41,8 @@ void mandelbrot(int idThread) {
 	int start = idThread * INTERACOES / NUMTHREADS;
 	int end = (idThread + 1) * (INTERACOES / NUMTHREADS) - 1;
 
+	pthread_mutex_lock(&bagLock);
+
 	for (y = 0; y < h; y++) {
 		for (x = 0; x < w; x++) {
 			pr = 1.5 * (x - w / 2) / (0.5 * zoom * w) + moveX;
@@ -70,6 +72,7 @@ void mandelbrot(int idThread) {
 			fwrite(cor, 1, 3, fp);
 		}
 	}
+	pthread_mutex_unlock(&bagLock);
 }
 
 void *worker(void *arg) {
