@@ -1,0 +1,6 @@
+#ifndef FRACTALDEMONDELBRO_LIBRARY_H
+#define FRACTALDEMONDELBRO_LIBRARY_H
+
+void hello(void);
+
+#endif
